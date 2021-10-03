@@ -1,0 +1,1796 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.red {
+    background-color: #f73535;
+    padding: 10px 0;
+}
+
+.phone {
+    color: rgb(255, 255, 255);
+    padding-left: 60px;
+    font-size: 16px;
+    width: 33%;
+}
+
+.phone:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.map {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    word-spacing: -7px;
+    padding-left: 20px;
+    width: 52%;
+}
+
+.map:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.networks {
+    width: 14%;
+    display: inline-block;
+}
+
+.social {
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.social:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.navbar {
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 35px 0;
+}
+
+.carousel {
+    position: relative;
+}
+
+.navbar-header{
+    padding-left: 60px;
+    padding-top: 8px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+.navbar-default .navbar-nav > li > .active{
+    color: #ffff00;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffff00;
+}
+
+.navbar-default .collapse {
+    float: left;
+}
+.navbar-toggle {
+    margin-right: 30px;
+}
+ .nav {
+    width: 950px;
+    margin-left: 40%;
+}
+
+.glue {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(32, 31, 31);
+    border-color: rgb(32, 31, 31);
+    padding: 15px 0;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.carousel-inner > .item > img {
+    width:100%;
+    height:620px;
+}
+
+.title {
+    font-size: 78px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.btn-red {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(233, 29, 29);
+    border-style: none;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.btn-red:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+}
+
+.welcome{
+    color: rgb(31, 29, 29);
+    padding-top: 100px;
+    text-align: center;
+    font-size: 47px;
+}
+
+.line-red {
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 48%;
+}
+
+.info {
+    font-size: 15px;
+    padding: 40px 100px;
+    text-align: center;
+}
+
+.img-bodybuilder {
+    width: 100%;
+    float: left;
+    position: relative; 
+}
+
+.stop {
+    padding: 0;
+}
+.bodybuilding {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.head-bodybuilding {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.btn-bodybuilding {
+    color: white;
+    width: 72%;
+    height: 40px;
+    background-color: rgb(238, 45, 45);
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 45px;  
+}
+
+.head-bodybuilding:hover .bodybuilding {
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    color: yellow;
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+}
+.head-bodybuilding:hover .btn-bodybuilding {
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    -webkit-transform: translateY(-95px);
+    transform: translateY(-95px);
+}
+.btn-bodybuilding:hover {
+    color: black;
+    font-weight: 700;
+    background-color: yellow;
+}
+
+.color-item {
+    color: red;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.font-item {
+    padding: 5px 60px 120px 60px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.img-circle {
+    border: 5px solid red;
+    width: 80%;
+}
+
+.line-item {
+    margin-top: 60px;
+} 
+
+.mini {
+    color: red;
+    font-size: 18px;
+}
+
+.exposition {
+    color: rgb(161, 143, 143);
+    padding-top: 10px;
+}
+
+.all-coaches{
+    color: rgb(65, 61, 61);
+    padding-top: 80px;
+    text-align: center;
+    font-size: 47px;
+}
+
+.btn-view{
+    width: 190px;
+    height: 40px;
+    background-color: rgb(236, 72, 72);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.sportzal {
+    position: relative;
+}
+
+.sportzal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);  
+}
+
+.img-zal {
+    width: 100%;
+    height: auto;
+}
+
+.client {
+    position: absolute;
+    top: 0px;
+	left: 0px;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+
+.head-coment {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+.coment {
+    text-align: center;
+    font-size: 16px;
+    padding: 0 25%;
+}
+
+.img-coment {
+    border-radius: 20px;
+}
+
+            /* footer */
+.footer {
+    background-color: rgb(32, 31, 31);
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.img-logotype {
+    padding: 50px 0 50px 60px;
+}
+
+.box {
+    padding-left: 50px;
+}
+
+.link-facebook {
+    padding: 10px 15px;
+    border-radius: 120px;
+    background-color: rgb(54, 51, 51);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.link-facebook:hover {
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+}
+
+.link-twitter {
+    padding: 10px 12px;
+    border-radius: 120px;
+    background-color: rgb(54, 51, 51);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.link-twitter:hover {
+    text-decoration: none;
+    background: #55ACEE;
+    color: white;
+}
+
+.link-instagram {
+    padding: 10px 12px;
+    border-radius: 120px;
+    background-color: rgb(54, 51, 51);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.link-instagram:hover {
+    text-decoration: none;
+    background: #ea4c89;
+    color: white;
+}
+
+.link-in {
+    padding: 10px 12px;
+    border-radius: 120px;
+    background-color: rgb(54, 51, 51);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.link-in:hover {
+    text-decoration: none;
+    background: #007bb5;
+    color: white;
+}
+
+.avtor {
+    color: rgb(116, 109, 109);
+    font-size: 14px;
+    padding: 15px 60px;
+}
+
+.newsletter {
+    padding: 40px 40px 50px 0;
+}
+
+.news {
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.enter-mail {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 18px 80px 20px 0;
+}
+
+.box-sizing {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.box-sizing form {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+  }
+
+.box-sizing input {
+    width: 310px;
+    height: 42px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+}
+
+.box-sizing .btn-subscribe {
+    position: absolute; 
+    top: 0;
+    right: 0px;
+    width: 105px;
+    height: 42px;
+    border: none;
+    background: rgb(206, 8, 8);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn-subscribe:hover {
+    background: rgb(211, 211, 49);
+    color: black;
+}
+ 
+.box-sizing .btn-letter {
+    width: 30px;
+    height: 42px;
+    top: 0;
+    left: 0;
+    background: rgb(89, 84, 84);
+    color: white;
+    border: none;
+    position: absolute;
+}
+
+/* button return top */
+#top{
+    right:30px;
+    bottom: 30px;
+    position: fixed;
+    opacity: 0;
+}
+
+.btn-up {
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(119, 104, 104);
+    border: none;
+}
+
+.btn-up:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Page2 About Coach ------------------------------------------------------------------------*/
+
+.intro-page {
+    position: relative;
+}
+
+.img-textura {
+    width: 100%;
+    height: 270px;
+}
+
+.paragraf {
+    position: absolute;
+    top: 0;
+	left: 0;
+    width: 100%;
+    height: 100%;  
+    display: block;
+    text-align: center;
+}
+
+.about-coach {
+    color: white;
+    font-size: 58px;
+    font-weight: 700;
+    padding-top: 110px;
+    padding-bottom: 10px;
+}
+
+.btn-home {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-home:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.page-two {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.shift {
+    padding: 80px 80px 80px 60px;
+    align-items: center;
+}
+
+.img-emili {
+    width: 100%; 
+}
+
+.btn-emili {
+    width: 80%;
+    height: 50px;
+    color: white;
+    background-color: rgb(216, 40, 40);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 40px auto;
+    display: block;
+}
+
+.btn-emili:hover {
+    background-color: rgb(206, 206, 38);
+    color: black;
+}
+
+.network-social {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.call {
+    margin: 20px auto;
+    font-size: 18px;
+    color: rgb(119, 111, 111);
+    text-align: center;
+}
+
+.tel {
+    font-size: 15px;
+    color: rgb(28, 27, 27);
+}
+
+.letter {
+    font-size: 18px;
+    color: rgb(119, 111, 111);
+    text-align: center;
+}
+
+.gmail {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.emily {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(54, 51, 51);
+}
+
+.fitnes {
+    color: rgb(134, 123, 123);
+    font-size: 14px;
+}
+
+.underlining {
+    color: rgb(189, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.working {
+    font-size: 16px;
+    color: rgb(55, 52, 52);
+    padding: 40px 0 15px 0;;
+}
+
+.quote {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.perkis {
+    font-size: 16px;
+    color: rgb(55, 52, 52);
+    padding: 15px 0 50px 0;
+}
+
+.interest {
+    font-size: 15px;
+    font-weight: 700;
+    float: right;
+    text-align: right;
+}
+
+.training {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* page Typography ------------------------------------------------------------------------ */
+
+.pad-image {
+    padding: 60px;
+}
+
+/* paragraf Image Floating */
+.img-floating {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+.line-red-long {
+    color: rgb(189, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 48%;
+}
+
+.img-people {
+    margin: 40px 60px;
+}
+
+.img-left {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.text-note {
+    font-size: 16px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.img-right {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.text-note-right {
+    font-size: 16px;
+    padding-left: 30px;
+    padding-top: 15px;
+    text-align: right;
+}
+
+/* paragraf Text Dropcaps */
+.word-a{
+    font-size: 105px;
+    font-weight: bold;
+    margin-right: 5px; 
+    color: #eb0505;
+    float: left;
+    padding-top: 7px;
+    padding-left: 40px;
+}
+
+.note-dropcaps {
+    font-size: 16px;
+    padding: 40px 30px 0 40px;
+}
+
+/* paragraf Text Alignment */
+.img-floating-top {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+.txt-center {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.txt-note-center {
+    text-align: center;
+    font-size: 16px;
+}
+
+.txt-left {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 30px 0 15px 30px;
+}
+
+.txt-left-note {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.txt-right {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 30px 30px 15px 0;
+    text-align: right;
+}
+
+.txt-right-note {
+    font-size: 16px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+/* page Contact Us -----------------------------------------------------------------------------*/
+.now-to-find {
+    padding: 60px;
+}
+
+.find {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.city-center {
+    padding: 40px 0;
+    font-size: 16px;
+}
+
+.city-cambridge{
+    color: red;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.addressa {
+    font-size: 15px;
+}
+
+.number {
+    color: rgb(55, 52, 52);
+}
+
+.number:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.city-glasgow {
+    color: red;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.contacts {
+    padding: 40px 0 40px 0;
+}
+
+.padding {
+    padding: 0;
+}
+
+.contacts input {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+.contacts textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.contacts input[type=submit] {
+    background-color: #eb1404;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 20px 20px 0 0;
+}
+
+.contacts input[type=submit]:hover {
+    background-color: #d5e829;
+    color: black;
+}
+
+.contacts button[type=submit] {
+    color: rgb(56, 53, 53);
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 110px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.contacts button[type=submit]:hover {
+    background: rgb(56, 53, 53);
+    color: white;
+}
+
+
+
+@media(max-width:567px){
+    
+    .red{
+        display: none;
+    }
+    .navbar-header {
+        padding-left: 40px;
+    }
+    .nav {
+        width: 100%;
+        margin-left: 50%;
+    }
+    .navbar-collapse {
+        width: 70%;
+    }
+    .navbar {
+        background-color: rgb(32, 31, 31);
+        border-color: rgb(32, 31, 31);
+        padding: 0 0;
+        width: 100%;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .carousel-inner > .item > img {
+        height:250px;
+    }
+    .title {
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .title-note {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+    .btn-red {
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .welcome{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .line-red {
+        text-align: center;
+    }
+    .info {
+        font-size: 13px;
+        padding: 40px 50px;
+        text-align: center;
+    }
+    .font-item {
+        padding: 0 30px 40px 30px;
+    }
+   .stop {
+       width: 60%;
+       margin-left: 20%;
+   }
+    
+    .bodybuilding {
+        padding-top: 100px;
+    }
+    .btn-bodybuilding {
+        opacity: 0;
+        margin: 45px auto 0 auto;
+        width: 40%;
+        display: block;
+    }
+    .head-bodybuilding:hover .btn-bodybuilding {
+        opacity: 1;
+    }
+    .color-item {
+        font-size: 22px;
+    }
+    
+    .font-item {
+        font-size: 13px;
+    }
+
+    .img-zal {
+        height: 300px;
+    }
+    .head-coment {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .coment {
+        font-size: 12px;
+        padding: 0 5%;
+    }
+    .img-coment {
+        width: 12%;
+    }
+    .coment-alica {
+        font-size: 14px;
+    }
+    .regular-client {
+        font-size: 13px;
+    }
+    .all-coaches{
+        font-size: 30px;
+    }
+    .img-circle {
+        width: 50%;
+    }
+    .btn-view{
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    /* Footer */
+    .footer {
+        width: 100%;
+        padding-bottom: 60px;
+        height: auto;
+    }
+    .img-logotype {
+        margin: 0 auto;
+        display: block;
+        padding: 10px 0;
+    }
+    .box {
+        text-align: center;
+        padding: 0;
+    }
+    .link-facebook,
+    .link-twitter,
+    .link-instagram,
+    .link-in {
+        font-size: 15px;
+    }
+    .avtor {
+        font-size: 13px;
+        padding: 15px auto;
+        text-align: center;
+    }
+    .enter-mail {
+        font-size: 11px;
+        text-align: center;
+        padding: 18px 0;
+    }
+    .newsletter {
+        padding: 0;
+        text-align: center;
+    }
+    .box-sizing {
+        margin: 0 35%;
+    }
+    .box-sizing form {
+        width: 210px;
+    }
+    .box-sizing input {
+        width: 180px;
+    }
+    .box-sizing .btn-subscribe {
+        width: 75px;
+        font-size: 10px;
+    }
+    /* page 2 About Coach */
+    .img-textura {
+        height: 220px;
+    }
+    .about-coach {
+        font-size: 38px;
+        padding-top: 90px;
+    }
+    .img-emili {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .shift {
+        padding: 70px 30px;
+    }
+    .btn-emili {
+        width: 70%;
+    }
+    .emily {
+        font-size: 42px;
+        text-align: center;
+    }
+    .fitnes {
+        text-align: center;
+    }
+    .underlining {
+        text-align: center;
+        display: block;
+    }
+    .working {
+        font-size: 13px;
+    }
+    .quote {
+        font-size: 20px;
+    }  
+    .perkis {
+        font-size: 13px;
+    }
+    .training {
+        font-size: 14px;
+    }
+    /* page 3 Typography */
+    .pad-image {
+        padding: 30px;
+    }
+    .img-floating {
+        font-size: 24px;
+    }
+    .img-people {
+        margin: 30px 0;
+        width: 70%;
+    }
+    .img-left {
+        font-size: 18px;
+        padding-top: 0;
+    }
+    .text-note {
+        font-size: 12px;
+    }
+    .img-right {
+        font-size: 18px;
+    }
+    .text-note-right {
+        font-size: 12px;
+    }
+    .img-padding {
+        float: right;
+        margin: 40px 0 40px 0;
+    }
+    .note-dropcaps {
+        font-size: 12px;
+        padding: 40px 0 0 0;
+    }
+    .img-floating-top {
+        font-size: 24px;
+    }
+    .txt-center {
+        font-size: 20px;
+    }
+    .txt-note-center {
+        font-size: 12px;
+    }
+    .txt-left {
+        font-size: 20px;
+    }
+    .txt-left-note {
+        font-size: 12px;
+        padding-left: 0px;
+    }
+    .txt-right {
+        font-size: 20px;
+    }
+    .txt-right-note {
+        font-size: 12px;
+        padding-right: 0px;
+    }
+    /* page 4 Contacts */
+    .now-to-find {
+        padding: 50px 40px 50px 40px;
+    }
+    .city-center {
+        padding: 20px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    .find {
+        font-size: 26px;
+        text-align: center;
+    }
+    .margin-top {
+        padding-top: 0;
+    }
+    .padd-down{
+        padding: 0;  
+    }
+    .contacts input[type=submit] {
+        width: 60px;
+        padding: 12px 10px;
+    }
+    .contacts button[type=submit] {
+        width: 70px;
+        padding: 12px 10px;
+    }
+
+}
+
+
+/* Extra Small */
+@media(min-width:568px) and (max-width:767px){
+    
+    .red{
+        display: none;
+    }
+    .navbar-header {
+        padding-left: 40px;
+    }
+    .nav {
+        width: 100%;
+        margin-left: 50%;
+    }
+    .navbar-collapse {
+        width: 70%;
+    }
+    .navbar {
+        background-color: rgb(32, 31, 31);
+        border-color: rgb(32, 31, 31);
+        padding: 0 0;
+        width: 100%;
+        position: relative;
+        margin-bottom: 0;
+    }
+    .carousel-inner > .item > img {
+        height:300px;
+    }
+    .title {
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .title-note {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+    .btn-red {
+        width: 100px;
+        height: 35px;
+        font-size: 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .welcome{
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    .line-red {
+        text-align: center;
+    }
+    .info {
+        font-size: 13px;
+        padding: 40px 50px;
+        text-align: center;
+    }
+    .font-item {
+        padding: 0 30px 40px 30px;
+    }
+    .stop {
+        width: 60%;
+        margin-left: 20%;
+    }
+    .head-bodybuilding {
+        background: none;
+    }
+    .bodybuilding {
+        padding-top: 220px;
+    }
+    .btn-bodybuilding {
+        opacity: 0;
+        margin: 45px auto 0 auto;
+        width: 50%;
+        display: block;
+    }
+    .head-bodybuilding:hover .btn-bodybuilding {
+        opacity: 1;
+    }
+    .color-item {
+        font-size: 22px;
+    }
+    
+    .font-item {
+        font-size: 13px;
+    }
+    .head-coment {
+        font-size: 25px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .coment {
+        font-size: 12px;
+        padding: 0 5%;
+    }
+    .img-coment {
+        width: 12%;
+    }
+    .coment-alica {
+        font-size: 14px;
+    }
+    .regular-client {
+        font-size: 13px;
+    }
+    .all-coaches{
+        font-size: 30px;
+    }
+    .img-circle {
+        width: 50%;
+    }
+    .btn-view{
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    /* Footer */
+    .footer {
+        padding-bottom: 80px;
+    }
+    .img-logotype {
+        margin: 0 auto;
+        display: block;
+        padding: 20px 0;
+    }
+    .box {
+        text-align: center;
+        padding: 0;
+    }
+    .link-facebook,
+    .link-twitter,
+    .link-instagram,
+    .link-in {
+        font-size: 15px;
+    }
+    .avtor {
+        font-size: 13px;
+        padding: 15px auto;
+        text-align: center;
+    }
+    .enter-mail {
+        font-size: 11px;
+        text-align: center;
+        padding: 18px 0;
+    }
+    .newsletter {
+        padding: 0;
+        text-align: center;
+    }
+    .box-sizing {
+        margin: 0 35%;
+    }
+    .box-sizing form {
+        width: 210px;
+    }
+    .box-sizing input {
+        width: 180px;
+    }
+    .box-sizing .btn-subscribe {
+        width: 75px;
+        font-size: 10px;
+    }
+    /* page 2 About Coach */
+    .img-textura {
+        height: 220px;
+    }
+    .about-coach {
+        font-size: 38px;
+        padding-top: 90px;
+    }
+    .img-emili {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    .shift {
+        padding: 70px 30px;
+    }
+    .btn-emili {
+        width: 70%;
+    }
+    .emily {
+        font-size: 42px;
+        text-align: center;
+    }
+    .fitnes {
+        text-align: center;
+    }
+    .underlining {
+        text-align: center;
+        display: block;
+    }
+    .working {
+        font-size: 13px;
+    }
+    .quote {
+        font-size: 20px;
+    }  
+    .perkis {
+        font-size: 13px;
+    }
+    .training {
+        font-size: 14px;
+    }
+    /* page 3 Typography */
+    .pad-image {
+        padding: 30px;
+    }
+    .img-floating {
+        font-size: 24px;
+    }
+    .img-people {
+        margin: 30px 0;
+        width: 70%;
+    }
+    .img-left {
+        font-size: 18px;
+        padding-top: 0;
+    }
+    .text-note {
+        font-size: 12px;
+    }
+    .img-right {
+        font-size: 18px;
+    }
+    .text-note-right {
+        font-size: 12px;
+    }
+    .img-padding {
+        float: right;
+        margin: 40px 0 40px 0;
+    }
+    .note-dropcaps {
+        font-size: 12px;
+        padding: 40px 0 0 0;
+    }
+    .img-floating-top {
+        font-size: 24px;
+    }
+    .txt-center {
+        font-size: 20px;
+    }
+    .txt-note-center {
+        font-size: 12px;
+    }
+    .txt-left {
+        font-size: 20px;
+    }
+    .txt-left-note {
+        font-size: 12px;
+        padding-left: 0px;
+    }
+    .txt-right {
+        font-size: 20px;
+    }
+    .txt-right-note {
+        font-size: 12px;
+        padding-right: 0px;
+    }
+    /* page 4 Contacts */
+    .now-to-find {
+        padding: 50px 40px 50px 40px;
+    }
+    .city-center {
+        padding: 20px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    .find {
+        font-size: 26px;
+        text-align: center;
+    }
+    .margin-top {
+        padding-top: 0;
+    }
+    .padd-down{
+        padding: 0;  
+    }
+    .contacts input[type=submit] {
+        width: 60px;
+        padding: 12px 10px;
+    }
+    .contacts button[type=submit] {
+        width: 70px;
+        padding: 12px 10px;
+    }
+
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+    .phone {
+        padding-left: 3%;
+        width: 25%;
+        font-size: 14px;
+    }
+    .map {
+        width: 54%;
+        font-size: 14px;
+    }
+    .networks {
+        width: 20%;
+        padding-left: 2%;
+    }
+    .social {
+        padding-left: 10px; 
+    }
+    .navbar-default .navbar-nav > li > a {
+        font-size: 13px;
+        padding-right: 0;
+    }
+    .logo-img {
+        width: 80%;
+    }
+    .nav {
+        width: 520px;
+        margin-left: 10%;
+    }
+    .carousel-inner > .item > img {
+        height:420px;
+    }
+    .title {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .title-note {
+        font-size: 15px;
+    }
+    .btn-red {
+        width: 130px;
+        height: 40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .welcome{
+        padding-top: 40px;
+        font-size: 40px;
+    }
+    .line-red {
+        text-align: center;
+    }
+    .info {
+        padding: 40px 80px;
+    }
+    .font-item {
+        padding: 0 60px 50px 60px;
+    }
+    .bodybuilding {
+        padding-top: 220px;
+    }
+    .head-bodybuilding {
+        background: none;
+    }
+    .btn-bodybuilding {
+        opacity: 0;
+        margin-left: 50px;
+    }
+    .head-bodybuilding:hover .btn-bodybuilding {
+        opacity: 1;
+    }
+    .all-coaches{
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .img-circle {
+        width: 70%;
+    }
+    .btn-view{
+        margin: 50px auto;
+    }
+    .head-coment {
+        padding-top: 70px;
+        font-size: 36px;
+        padding-bottom: 20px;
+    }
+    .coment {
+        font-size: 13px;
+        padding: 0 14%;
+    }
+    .img-coment {
+        width: 12%;
+    }
+    .coment-alica {
+        font-size: 14px;
+    }
+    .regular-client {
+        font-size: 13px;
+    }
+/* Footer */    
+    .enter-mail {
+        font-size: 13px;
+    }
+    .newsletter {
+        padding: 40px 0 50px 150px;
+    }
+    .box-sizing form {
+        width: 280px;
+    }
+    .box-sizing input {
+        width: 200px;
+    }
+    .box-sizing .btn-subscribe {
+        width: 90px;
+        font-size: 12px;
+    }
+    /* page 2 About Coach */
+    .shift {
+        padding: 70px 40px;
+    }
+    .btn-emili {
+        width: 80%;
+    }
+    .working {
+        font-size: 14px;
+    }
+    .quote {
+        font-size: 24px;
+    }  
+    .perkis {
+        font-size: 14px;
+    }
+    .training {
+        font-size: 14px;
+    }
+    /* page 3 Typography */
+    .pad-image {
+        padding: 50px;
+    }
+    .img-floating {
+        font-size: 29px;
+    }
+    .img-people {
+        margin: 40px 0;
+        width: 90%;
+    }
+    .img-left {
+        font-size: 20px;
+    }
+    .text-note {
+        font-size: 13px;
+    }
+    .img-right {
+        font-size: 20px;
+    }
+    .text-note-right {
+        font-size: 13px;
+    }
+    .img-padding {
+        margin: 40px 0 40px 20px;
+    }
+    .note-dropcaps {
+        font-size: 13px;
+        padding: 40px 30px 0 40px;
+    }
+    .img-floating-top {
+        font-size: 29px;
+    }
+    .txt-center {
+        font-size: 24px;
+    }
+    .txt-note-center {
+        font-size: 13px;
+    }
+    .txt-left {
+        font-size: 24px;
+    }
+    .txt-left-note {
+        font-size: 13px;
+    }
+    .txt-right {
+        font-size: 24px;
+    }
+    .txt-right-note {
+        font-size: 13px;
+    }
+    /* page 4 Contacts */
+    .now-to-find {
+        padding: 40px;
+    }
+    .find {
+        font-size: 26px;
+    }
+    .city-center {
+        font-size: 14px;
+    }
+    .get-in-touch {
+        padding: 60px 40px 60px 40px; 
+    }
+    .padd-down{
+        padding: 0;  
+    }
+    .contacts input[type=submit] {
+        width: 80px;
+    }
+    .contacts button[type=submit] {
+        width: 90px;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+    .phone {
+        padding-left: 4%;
+        width: 27%;
+    }
+    .map {
+        width: 55%;
+    }
+    .networks {
+        width: 15%;
+    }
+   /* navbar */
+   .nav {
+    width: 750px;
+    margin-left: 25%;
+    }
+    .carousel-inner > .item > img {
+        height:520px;
+    }
+    .title {
+        font-size: 50px;
+    }
+    .title-note {
+        font-size: 20px;
+    }
+    .btn-red {
+        width: 160px;
+        height: 45px;
+        font-size: 13px;
+    }
+    .welcome{
+        padding-top: 40px;
+    }
+    .font-item {
+        padding-bottom: 40px;
+    }
+    .bodybuilding {
+        padding-top: 120px;
+    }
+    .btn-bodybuilding {
+        margin-left: 40px; 
+        opacity: 0;
+    }
+    .head-bodybuilding:hover .btn-bodybuilding {
+        opacity: 1;
+    }
+    .img-circle {
+        border: 3px solid red;
+        width: 95%;
+    }
+    .all-coaches{
+        padding-top: 40px;
+    }
+    .line-item {
+        margin-top: 40px;
+    }
+    .mini {
+        color: red;
+        font-size: 15px;
+    }
+    .btn-view{
+        width: 170px;
+        height: 40px;
+        font-size: 14px;
+        margin: 50px auto;
+    }
+    .head-coment {
+        padding-top: 100px;
+    }
+    .coment {
+        padding: 0 20%;
+    }
+    /* Footer */
+    .enter-mail {
+        font-size: 13px;
+    }
+    .newsletter {
+        padding: 40px 0 50px 190px;
+    }
+    .box-sizing form {
+        width: 280px;
+    }
+    .box-sizing input {
+        width: 200px;
+    }
+    .box-sizing .btn-subscribe {
+        width: 90px;
+        font-size: 12px;
+    }
+    /* page 2 About Coach */
+    
+    .shift {
+        padding: 80px 60px 80px 60px;
+    }
+    .emily {
+        font-size: 42px;
+    }
+    /* page 3 Typography */
+    .pad-image {
+        padding: 50px;
+    }
+    .img-floating {
+        font-size: 32px;
+    }
+    .img-people {
+        margin: 40px 0;
+        width: 90%;
+    }
+    .img-left {
+        font-size: 22px;
+    }
+    .text-note {
+        font-size: 14px;
+    }
+    .img-right {
+        font-size: 22px;
+    }
+    .text-note-right {
+        font-size: 14px;
+    }
+    .img-padding {
+        margin: 40px 0 40px 40px;
+    }
+    .note-dropcaps {
+        font-size: 14px;
+        padding: 40px 30px 0 40px;
+    }
+    .img-floating-top {
+        font-size: 32px;
+    }
+    .txt-note-center {
+        font-size: 14px;
+    }
+    .txt-left-note {
+        font-size: 14px;
+    }
+    .txt-right-note {
+        font-size: 14px;
+    }
+    /* page 4 Contacts */
+    .now-to-find {
+        padding-right: 20px;
+    }
+}
+
+/* Large */
+@media(min-width:1200px){
+    
+}
